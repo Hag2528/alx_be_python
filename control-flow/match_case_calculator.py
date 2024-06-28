@@ -18,4 +18,4 @@ match operation:
          else :
              print("cannot divide by zero.")
     case _:
-        print("Try best")
+        print("Not valid operator")

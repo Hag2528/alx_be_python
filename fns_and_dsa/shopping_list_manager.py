@@ -10,9 +10,8 @@ def main():
     while True:
         display_menu()
         choice = input("Enter your choice: ")
-
         if choice == '1':
-            new_item = input("Enter item name: ")
+            new_item =input("Enter item name: ")
             shopping_list.append(new_item)
             print(f"{new_item} added to the list.")
         elif choice == '2':

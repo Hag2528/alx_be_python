@@ -1,4 +1,4 @@
-def perform_operation(num1,num2,operation):
+def perform_operation(num1, num2, operation):
         if operation=="add":
            return num1+num2
         elif operation=="subtract":
@@ -12,4 +12,4 @@ def perform_operation(num1,num2,operation):
                 print("denominator should be different from zero, enter non zero number")
         else:
             print("Enter valid operations")
-           
+    

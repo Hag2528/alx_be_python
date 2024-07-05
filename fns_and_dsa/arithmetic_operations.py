@@ -6,10 +6,9 @@ def perform_operation(num1, num2, operation):
         elif operation=="multiply":
             return num1*num2
         elif operation=="divide":
-            if num2!=0:
-                return num1/num2
-            else:
-                print("denominator should be different from zero, enter non zero number")
+             while num2==0:
+                  print("num2 should be different from zero")
+             return num1/num2
         else:
             print("Enter valid operations")
     

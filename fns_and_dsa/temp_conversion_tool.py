@@ -21,7 +21,7 @@ def main():
         unit_label = "°F"
         result_unit = "°C"
       else:
-        raise ValueError("Invalid unit. Please enter 'C' or 'F'.")
+        raise ValueError("Invalid temperature. Please enter a numeric value.'C' or 'F'.")
       print(f"{temperature}{unit_label} is {converted_temp:.2f}{result_unit}")
       break  
     except ValueError as e:

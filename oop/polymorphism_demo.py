@@ -4,7 +4,7 @@ class Shape:
         raise NotImplementedError
 class Rectangle(Shape):
       def __init__(self,length,width):
-          self.lenght=length
+          self.length=length
           self.width=width
       def area(self):
            return  self.length * self.width

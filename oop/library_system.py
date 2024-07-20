@@ -24,9 +24,10 @@ class Library:
             self.books.append(book) 
            else: print("Invalid book type. Only Book, EBook, or PrintBook allowed.") 
        def list_books(self):
-         for book in self.books: 
-              print(f"Book: {book.title}, Author: {book.author}")
-         if isinstance(book, EBook): 
-              print(f"File Size: {book.file_size} MB") 
-         elif isinstance(book, PrintBook): 
-              print(f"Page Count: {book.page_count} pages")
+          for book in self.books: 
+           print(book)
+         #      print(f"Book: {book.title}, Author: {book.author}")
+         # if isinstance(book, EBook): 
+         #      print(f"File Size: {book.file_size} MB") 
+         # elif isinstance(book, PrintBook): 
+         #      print(f"Page Count: {book.page_count} pages")

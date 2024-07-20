@@ -25,7 +25,7 @@ class Library:
            else: print("Invalid book type. Only Book, EBook, or PrintBook allowed.") 
        def list_books(self):
           for book in self.books: 
-           print(book)
+           print(f"{book.title}, Author: {book.author}")
          #      print(f"Book: {book.title}, Author: {book.author}")
          # if isinstance(book, EBook): 
          #      print(f"File Size: {book.file_size} MB") 
